@@ -43,14 +43,14 @@ The main  goal of this preprocessing was to be able to filter out the videos tha
 Once the videos were classified with respect to the smartphone brands mentioned in them, we were able to start calculating statistics of this data some of which we show  below as an example :
 
 <p align="center">
-  <img src="./images/sharesVideos.png" alt="stats shares" width="700"/>
+  <img src="./images/sharesVideos.png" alt="stats shares" width="800"/>
 </p>
 	
 **STEP 3: time series analysis and visualization:**
 Having our processed dataset allowed us to understand better that data and how to navigate it. In particular, we found that indexing our data frame of videos with respect to the videos release date made the computation of time-series statistics particularly convenient. Leveraging this, we were able to compute time-dependent statistics some of which we show below as an example:
 
 <p align="center">
-  <img src="./images/avgViews.png" alt="timeseries views" width="700"/>
+  <img src="./images/channelsBrands.png" alt="timeseries views" width="800"/>
 </p>
  
 Then we have done a time series analysis with the purpose of identifying the popularity of the different brands on YouTube using the number of views that each brand has got; then we have compared these trends.
