@@ -71,10 +71,10 @@ As a further step, we identified the words that are most common in the titles of
 * 02.12.22 **Homework 2 deadline**
 * 03.12.22 Add confidence intervals using bootstrapping.
 * 05.12.22 Perform final analyses.
-* 08.12.22 Begin developing a rough draft of the datastory.
-* 11.12.22 Complete all code implementations and visualisations relevant to analysis.
-* 14.12.22 Complete datastory.
-* 17.12.22 **Milestone 3 deadline**
+* 10.12.22 Begin developing a rough draft of the datastory.
+* 12.12.22 Complete all code implementations and visualisations relevant to analysis.
+* 16.12.22 Complete datastory.
+* 23.12.22 **Milestone 3 deadline**
 
 ## Team Organization :raised_hands:
 <!---
