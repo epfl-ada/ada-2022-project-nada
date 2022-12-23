@@ -16,7 +16,7 @@ VIDEOS_METADATA_COLUMNS = ["categories", "channel_id",
                            "duration", "like_count", "tags", 
                            "title", "upload_date", "view_count"]
 # SMARTPHONES_DATA = "data/Phone_to_Smartphone.csv"
-BRANDS_TO_ANALYZE = ["Samsung", "Apple" ,"LG", "Huawei", "Xiaomi", "Oppo", ]
+BRANDS_TO_ANALYZE = ["Samsung", "Apple" , "Huawei", "Xiaomi", "Oppo", ]
 MONTHS_NAMES = ["January", "February", "March", 
                 "April", "May", "June", "July", 
                 "August", "September", "October", 
@@ -56,42 +56,6 @@ def get_brand_models(brand_name, df):
     """
     return df[df.Brand == brand_name].Name.unique()
 
-# VERSION THAT WAS IN MY NOTEBOOK
-# def other_calc_release(row, months):
-#    """
-#    This function parses the string containing a date in ambiguous format. 
-#    It tries to parse it using regular expressions and returns a date with the most precision it can get.
-   
-#    arguments:
-#            row (pandas.Series) : a row of the dataset that contain
-#                    the metadata realted to a video.
-#            months (List) : A list containing anmes of the 12 months
-           
-#    returns:
-#            pandas.DateTime : DateTime object containing the date
-#    """
-#    year = row.released_year
-#    release = re.sub(r"\s*Released\s*", "", row.released_at, flags=re.IGNORECASE)
-   
-#    full_date = re.search(r"[0-9]{4}, [a-z]+\s[0-9]{2}", release, flags=re.IGNORECASE)
-#    quarters_date = re.search(r"[0-9]{4}, [A-Z][1-4]", release, flags=re.IGNORECASE)
-#    months_date = re.search(r"[0-9]{4}, [a-z]+", release, flags=re.IGNORECASE)
-#    years_date = re.search(r"[0-9]{4}", release)
-   
-#    if full_date:
-#        return pd.to_datetime(full_date.group(0))
-#    elif quarters_date:
-#        q = int(quarters_date.group(0)[-1])
-#        m = months[(q-1)*3 + 1]
-#        return pd.to_datetime("{}/{}".format(m, year))
-#    elif months_date:
-#        return pd.to_datetime(months_date.group(0))
-#    elif years_date:
-#        return pd.to_datetime(years_date.group(0))
-#    else:
-#        return None
-
-# VERSION FROM ILYAS NOTEBOOK
 def calc_release(row, months):
     """
     This function parses the string containing a date in ambiguous format. 
