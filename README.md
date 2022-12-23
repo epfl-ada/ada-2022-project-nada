@@ -10,10 +10,9 @@
 <!---
 A list of research questions you would like to address during the project.
 --->
- 1. **Really less is more?** in other words, is Apple's marketing strategy a winning strategy? 	
- 2. How does the coverage of Apple compare with the competitors through time? In particular, how many videos and channels cover Apple smartphones compared to its             competitors, and how does this trend change over time?
- 3. How do different marketing strategies affect the content of YouTube through time?  
- 4. What makes a video of a smartphone from a specific company more interesting than another from the same company? Is it related to the words used in the titles?
+ 1. How does the coverage of Apple compare with the competitors through time? In particular, how many videos and channels cover Apple smartphones compared to its competitors, and how does this trend change over time?
+ 2. Does Apple's "Less is More" Marketing Strategy work?
+
  
 <a name="additional-datasets"></a>
 ## Additional Datasets :bookmark_tabs:
@@ -67,6 +66,8 @@ As a further step, we identified the words that are most common in the titles of
   <img src="./images/appleWords.png" alt="sentiment words" width="500"/>
 </p>
 
+## Data Story
+Please take a look at our data story [here](https://ahmad-jarrar.github.io/ada_story/#).
 
 ## Proposed timeline :clock10:
 **Warning:** We noticed that some videos about specific phone brands like Oppo, include in their tags also more famous brands like Apple or Samsung (due to visualizations), and this causes data poisoning. Since the code to associate the brand to each video required 2 days to run, and since we discovered this problem one day before the deadline we are going to rerun the code to get a more clean dataset by the third milestone. Meanwhile we did the same analysis that we would do with the clean dataset since the only difference would be a slightly more accurate result.
